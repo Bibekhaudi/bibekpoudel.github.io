@@ -1,206 +1,422 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Bibek Poudel</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bibek Poudel | GIS Analyst</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="nav-container">
+    <div class="logo">Bibek</div>
 
-
-<header>
-    <h1>Bibek Poudel</h1>
-    <p class="inline-list">
-        <span>GIS</span>
-        <span>Remote Sensing</span>
-        <span>LiDAR</span>
-        <span>Spatial Analysis</span>
-    </p>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#journey">Journey</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+     <a href="#beyond">Beyond GIS & RS</a>
+     <a href="#whatsnext">What's Next for me?</a>
+     <a href="#contact">Contact</a>
+    </nav>
+  </div>
 </header>
 
-<section id="education">
-    <h2>Education</h2>
+<section class="hero" id="home">
 
-    <h3>Master of Science in Geography</h3>
-    <p>Southern Illinois University Edwardsville (SIUE), Edwardsville, IL<br> May 2026</p>
+  <div class="container">
 
-    <h3>Bachelor of Engineering in Geomatics Engineering</h3>
-    <p>Tribhuvan University, Nepal<br>
-    July 2022 </p>
-</section>
-
-<section id="experience">
-    <h2>Professional Experience</h2>
-
-   <div class="job">
-    <div class="job-left">
-        <h3 class="job-title">Research Assistant</h3>
-        <p class="job-company">Geospatial Mapping, Applications, and Research Center (GeoMARC)</p>
-        <p class="job-location">Edwardsville, IL</p>
+    <!-- LEFT: IMAGE -->
+    <div class="left">
+      <img src="presentation.jpg" alt="Bibek">
     </div>
 
-    <div class="job-right">
-        <p class="job-dates">May 2025 – Present</p>
+    <!-- RIGHT: TEXT -->
+    <div class="right">
+
+      <div class="tag">
+        GIS | Remote Sensing | Spatial Analysis | Machine Learning | LiDAR | GPS/GNSS
+      </div>
+
+     <h1>
+        Developing data-driven geospatial solutions for environmental and land-use challenges      </h1>
+      <p>
+        I am Bibek Poudel, a GIS and Remote Sensing analyst focused on solving 
+        environmental and spatial problems using modern geospatial tools. My work focuses on integrating GIS, Remote Sensing, LiDAR, and Machine Learning to solve environmental and spatial problems.
+      </p>
+
     </div>
-</div>
 
-    <ul>
-        <li>Serve as a surveyor for the Subsidence Monitoring Response Team, conducting weekly precise leveling surveys at former mining sites.</li>
-        <li>Assess ground stability and measure potential land subsidence across Madison and St. Clair Counties.</li>
-        <li>Map mine subsidence using State LiDAR point clouds and integrate results into geospatial datasets.</li>
-    </ul>
+  </div>
 
-     <div class="job">
-        <div class="job-left">
-            <h3 class="job-title">Research Assistant</h3>
-            <p class="job-company">Institute of Forestry, Pokhara Campus</p>
-            <p class="job-location">Pokhara, Nepal</p>
-        </div>
-        <div class="job-right">
-            <p class="job-dates">Feb 2024 – July 2024</p>
-        </div>
-    </div>
-    <ul>
-        <li>Developed a methodology for mapping abandoned cropland using multi-temporal satellite imagery.</li>
-        <li>Created a cloud-based Decision Support System in Google Earth Engine for agroforestry suitability across Gandaki Province.</li>
-        <li>Mapped abandoned cropland from 1990–2020 and contributed to manuscript preparation for publication.</li>
-    </ul>
-
-      <div class="job">
-        <div class="job-left">
-            <h3 class="job-title">Geomatics Instructor</h3>
-            <p class="job-company">Shree Amarjyoti Secondary School</p>
-            <p class="job-location">Birendranagar, Nepal</p>
-        </div>
-        <div class="job-right">
-            <p class="job-dates">Jan 2023 – Feb 2024</p>
-        </div>
-    </div>
-    <ul>
-        <li>Taught GIS, Remote Sensing, Photogrammetry, Cartography, Surveying, and Land Administration to diploma-level students.</li>
-        <li>Trained students in Total Station, Theodolite, and digital leveling instruments.</li>
-        <li>Supervised survey camps involving traverse, trilateration, triangulation, and leveling surveys.</li>
-    </ul>
-
-   <div class="job">
-        <div class="job-left">
-            <h3 class="job-title">Climate Fellow</h3>
-            <p class="job-company">Youth Innovation Lab</p>
-            <p class="job-location">Rautahat, Nepal</p>
-        </div>
-        <div class="job-right">
-            <p class="job-dates">Jun 2022 – Nov 2022</p>
-        </div>
-    </div>
-    <ul>
-        <li>Mapped critical infrastructure using OSM and GPS for municipal DRRM planning.</li>
-        <li>Conducted Vulnerability and Capacity Assessments across all municipal wards.</li>
-        <li>Integrated field data into the BIPAD disaster management portal and supported LDCRP preparation.</li>
-    </ul>
 </section>
-
-<section id="projects">
-    <h2>Projects</h2>
-
-    <!-- Master's Thesis -->
-    <h3>Evaluating classifier performance for LULC classification using multi-resolution satellite imagery on ArcGIS Pro 
-and Google Earth Engine (Master’s Thesis)</h3>
-    <ul>
-        <li>Developed a standardized workflow to compare RF, SVM, CART, and ML classifiers across ArcGIS Pro and Google Earth Engine.</li>
-        <li>Created harmonized training and validation datasets with consistent preprocessing, band selection, and accuracy assessment (OA, UA, PA, Kappa).</li>
-        <li>Analyzed the impact of spatial resolution on classification performance using multi‑resolution satellite imagery.</li>
-    </ul>
-<p>
-        <a href="https://github.com/Bibekhaudi/Masters_Thesis" "target=_blank"> View GitHub Repo
-        </a>
-    </p>
-
-
-    <!-- Undergraduate Thesis -->
-    <h3>Solid Waste Management System using GIS and Remote Sensing: A Case Study of Pokhara Metropolitan 
-City (Undergraduate Thesis)</h3>
-      <ul>
-        <li>Designed and conducted a household survey to assess waste generation patterns across Pokhara Metropolitan City.</li>
-        <li>Identified suitable landfill sites using spatial analysis, environmental criteria, and remote sensing data.</li>
-        <li>Presented and defended the thesis as the final-year capstone project in Geomatics Engineering.</li>
-    </ul>
-
-    <!-- StoryMap Project -->
-    <h3>StoryMap: The Journey of Marcus Rashford</h3>
-    <ul>
-        <li>Created an interactive StoryMap illustrating the personal and professional journey of soccer player Marcus Rashford.</li>
-        <li>Integrated spatial data, biography, and multimedia elements to visualize key locations and milestones in his life and career.</li>
-        <li><a href="https://storymaps.arcgis.com/stories/59dd105d0cd74968892be0b1f57e233f" target="_blank">View StoryMap</a></li>
-    </ul>
-
-    <!-- MLS Web Map Project -->
-    <h3>ArcGIS Online Web Map: MLS Teams in the United States</h3>
-    <ul>
-        <li>Developed an interactive web map showing all Major League Soccer (MLS) teams across the United States.</li>
-        <li>Included stadium names, seating capacities, and team managers at the time of map creation.</li>
-        <li>Designed pop-ups and symbology to make team information easy to explore.</li>
-        <li><a href="https://gis-siue.maps.arcgis.com/apps/mapviewer/index.html?webmap=990f8a3c9ba5412eb4baed3add4bb56e" target="_blank">View Web Map</a></li>
-    </ul>
-</section>
-
-<section id="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li>GIS Software (QGIS, ArcGIS Pro, ERDAS Imagine)</li>
-        <li>Google Earth Engine</li>
-        <li>OpenStreetMap</li>
-        <li>Microsoft Office</li>
-        <li>GPS</li>
-        <li>Machine Learning</li>
-        <li>Deep Learning</li>
-        <li>Programming (R, Python, JavaScript)</li>
-        <li>Surveying (Total Station, Theodolite, Digital Leveling Machine)</li>
-        <li>WebGIS</li>
-        <li>Interactive Cartography</li>
-        <li>LiDAR</li>
-    </ul>
-</section>
-
-<section id="beyond-gis">
-    <h2>Beyond GIS & Remote Sensing</h2>
-    <p>I enjoy watching movies and series and exploring stories from different cultures and perspectives. 
-       I also like reading books that broaden my understanding of people, places, and ideas. 
-       These interests help me stay curious, reflective, and connected to the world beyond maps and data.</p>
-
-    <p>
-        <a href="https://letterboxd.com/bibekhaudi/" target="_blank">My Letterboxd Profile</a><br>
-        <a href="https://www.goodreads.com/user/show/159735703-bibek-haudi" target="_blank">My Goodreads Profile</a>
-    </p>
-</section>
-
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:bibekpoudel245@gmail.com">bibekpoudel245@gmail.com</a></p>
-    <p>Phone: (+1) 618-217-9569</p>
-    <p>LinkedIn: 
-        <a href="https://www.linkedin.com/in/bibek-poudel-b5375823b/" target="_blank">
-            linkedin.com/in/bibek-poudel-b5375823b
-        </a>
-    </p>
-  <p>GitHub:
-        <a href="https://github.com/Bibekhaudi" target="_blank">
-            github.com/Bibekhaudi
-        </a>
-    </p>
-</section>
-
-
-<section id="now">
-    <h2>What I'm Doing Now</h2>
-    <p>Completing my M.S. in Geography at SIUE. 
-       Actively applying for GIS and mapping roles across the United States.</p>
-</section>
-
-<footer>
-    <p>© 2026 Bibek Poudel</p>
-</footer>
 
 </body>
 </html>
 
+<section class="about" id="about">
+
+  <div class="about-container">
+
+    <h2>About Me</h2>
+
+    <p>
+      I am a GIS and Remote Sensing professional with a background in Geomatics Engineering and a Master’s in Geography at Southern Illinois University Edwardsville. My work focuses on spatial data analysis, environmental monitoring, land-use and land-cover classification, and geospatial modeling using tools such as ArcGIS Pro, QGIS, Google Earth Engine, Python, and machine learning techniques. I have experience in both field-based geospatial data collection and cloud-based geospatial analysis, with a strong interest in applying Earth observation data to real-world environmental and sustainability challenges.
+    </p>
+
+  </div>
+
+</section>
+
+<section class="journey" id="journey">
+  <div class="journey-container">
+
+    <h2>Educational Journey</h2>
+
+    <div class="edu-grid">
+
+      <div class="edu-card">
+        <h3>Master of Science in Geography</h3>
+        <p class="edu-school">
+          <a href="https://www.siue.edu" target="_blank">Southern Illinois University Edwardsville (SIUE)</a>
+        </p>
+        <p class="edu-year">2024 – 2026</p>
+        <p class="edu-location">Edwardsville, Illinois, USA</p>
+      </div>
+
+      <div class="edu-card">
+        <h3>Bachelor of Engineering in Geomatics Engineering</h3>
+        <p class="edu-school">
+          <a href="https://wrc.edu.np" target="_blank">IOE Pashchimanchal Campus, Tribhuvan University</a>
+        </p>
+        <p class="edu-year">2017 – 2022</p>
+        <p class="edu-location">Pokhara, Nepal</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="experience" id="experience">
+  <div class="experience-container">
+
+    <h2>Work Experience</h2>
+
+    <div class="timeline">
+
+      <!-- GeoMARC -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="exp-header">
+            <h3>Research Assistant</h3>
+            <span class="exp-date">May 2025 – Present</span>
+          </div>
+          <p class="exp-org">
+            <a href="https://www.siue.edu/geomarc/" target="_blank">
+              Geospatial Mapping, Applications, and Research Center (GeoMARC) · Edwardsville, IL
+            </a>
+          </p>
+          <p class="exp-desc">
+            Conducting precise leveling surveys, monitoring ground stability, and mapping mine subsidence using State LiDAR point clouds across Madison and St. Clair County.
+          </p>
+        </div>
+      </div>
+
+      <!-- Institute of Forestry -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="exp-header">
+            <h3>Research Assistant</h3>
+            <span class="exp-date">Feb 2024 – July 2024</span>
+          </div>
+          <p class="exp-org">
+            <a href="https://pc.tu.edu.np/" target="_blank">
+              Institute of Forestry, Pokhara Campus · Pokhara, Nepal
+            </a>
+          </p>
+          <p class="exp-desc">
+            Developed a decision support system for agroforestry suitability on abandoned cropland in Google Earth Engine and validated abandoned cropland mapping methodologies.
+          </p>
+        </div>
+      </div>
+
+      <!-- Geomatics Instructor -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="exp-header">
+            <h3>Geomatics Instructor</h3>
+            <span class="exp-date">Jan 2023 – Feb 2024</span>
+          </div>
+          <p class="exp-org">
+            <a href="https://amarjyoti.edu.np/" target="_blank">
+              Shree Amarjyoti Secondary School · Birendranagar, Nepal
+            </a>
+          </p>
+          <p class="exp-desc">
+            Taught GIS, Remote Sensing, Photogrammetry, Land Administration, and Surveying; supervised survey camps; and trained students on Total Station, Theodolite, and leveling instruments.
+          </p>
+        </div>
+      </div>
+
+      <!-- Climate Fellow -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="exp-header">
+            <h3>Climate Fellow</h3>
+            <span class="exp-date">Jun 2022 – Nov 2022</span>
+          </div>
+          <p class="exp-org">
+            <a href="https://youthinnovationlab.org/" target="_blank">
+              Youth Innovation Lab (YI-Lab) · Rautahat, Nepal
+            </a>
+          </p>
+          <p class="exp-desc">
+            Conducted DRRM and climate policy assessments, mapped critical infrastructures using OSM, performed VCA across all wards, and contributed to LDCRP preparation.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="projects" id="projects">
+  <div class="projects-container">
+
+    <h2>Projects</h2>
+
+    <div class="projects-grid">
+
+      <!-- Project 1: Master's Thesis -->
+      <a href="https://github.com/Bibekhaudi/Masters_Thesis" target="_blank" class="project-card-vertical">
+        <div class="project-image">
+          <img src="thesis.jpg" alt="LULC Thesis">
+        </div>
+        <div class="project-info">
+          <h3>Comparison of LULC Classifiers Using Multi‑Resolution Imagery</h3>
+          <p class="project-org">Master’s Thesis · SIUE ·2026</p>
+          <p class="project-desc">
+            Compared RF, SVM, CART, and ML classifiers across ArcGIS Pro and Google Earth Engine using harmonized datasets and accuracy metrics.
+          </p>
+          <div class="project-tags">
+            <span>ArcGIS Pro</span>
+            <span>Google Earth Engine</span>
+            <span>Machine Learning</span>
+            <span>Remote Sensing</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Project 2: Solid Waste Management -->
+      <a href="YOUR_LINK" target="_blank" class="project-card-vertical">
+        <div class="project-image">
+          <img src="waste.jpg" alt="Solid Waste Management">
+        </div>
+        <div class="project-info">
+          <h3>Solid Waste Management System</h3>
+          <p class="project-org">Undergraduate Thesis · 2022</p>
+          <p class="project-desc">
+            Identified suitable landfill sites for Pokhara Metropolitan City using GIS‑based multi‑criteria evaluation and household survey data.
+          </p>
+          <div class="project-tags">
+            <span>GIS</span>
+            <span>Remote Sensing</span>
+            <span>QGIS</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Project 3: Agroforestry DSS -->
+      <a href="https://bibekpoudel245.users.earthengine.app/view/decision-support-system-for-the-agroforestry--suitability" 
+         target="_blank" class="project-card-vertical">
+        <div class="project-image">
+          <img src="dss.jpg" alt="Agroforestry DSS">
+        </div>
+        <div class="project-info">
+          <h3>Agroforestry Suitability DSS</h3>
+          <p class="project-org">Institute of Forestry · 2024</p>
+          <p class="project-desc">
+            Built a cloud‑based decision support system in Google Earth Engine to map abandoned cropland and evaluate agroforestry suitability.
+          </p>
+          <div class="project-tags">
+            <span>Google Earth Engine</span>
+            <span>Agroforestry</span>
+            <span>Remote Sensing</span>
+            <span>Landsat</span>
+            <span>Time‑Series Analysis</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Project 4: StoryMap -->
+      <a href="https://storymaps.arcgis.com/stories/59dd105d0cd74968892be0b1f57e233f" 
+         target="_blank" class="project-card-vertical">
+        <div class="project-image">
+          <img src="rashford.jpg" alt="Marcus Rashford StoryMap">
+        </div>
+        <div class="project-info">
+          <h3>StoryMap: The Journey of Marcus Rashford</h3>
+          <p class="project-org">2025</p>
+          <p class="project-desc">
+            Created an interactive StoryMap visualizing the life and career of Marcus Rashford using spatial storytelling techniques.
+          </p>
+          <div class="project-tags">
+            <span>ArcGIS StoryMaps</span>
+            <span>Cartography</span>
+            <span>Web GIS</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Project 5: MLS Teams Web Map -->
+      <a href="https://gis-siue.maps.arcgis.com/apps/mapviewer/index.html?webmap=990f8a3c9ba5412eb4baed3add4bb56e" 
+         target="_blank" class="project-card-vertical">
+        <div class="project-image">
+          <img src="mls.jpg" alt="MLS Teams Web Map">
+        </div>
+        <div class="project-info">
+          <h3>MLS Teams in the United States</h3>
+          <p class="project-org">2025</p>
+          <p class="project-desc">
+            Developed an interactive web map showing MLS teams, stadiums, seating capacities, and team managers.
+          </p>
+          <div class="project-tags">
+            <span>ArcGIS Online</span>
+            <span>Web Mapping</span>
+            <span>Interactive GIS</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="skills" id="skills">
+  <div class="skills-container">
+
+    <h2>Skills</h2>
+
+    <ul class="skills-list">
+      <li>GIS Software (QGIS, ArcGIS Pro, ERDAS Imagine)</li>
+      <li>Google Earth Engine</li>
+      <li>OpenStreetMap</li>
+      <li>Microsoft Office</li>
+      <li>GPS</li>
+      <li>Machine Learning</li>
+      <li>Deep Learning</li>
+      <li>Programming (R, Python, JavaScript)</li>
+      <li>Surveying (Total Station, Theodolite, Digital Leveling Machine)</li>
+      <li>WebGIS</li>
+      <li>Interactive Cartography</li>
+      <li>LiDAR</li>
+    </ul>
+
+  </div>
+</section>
+
+<section class="beyond" id="beyond">
+  <div class="beyond-container">
+
+    <h2>Beyond GIS & Remote Sensing</h2>
+
+    <p class="beyond-intro">
+      Outside my geospatial work, I’m drawn to stories, ideas, and experiences that help me understand people, emotions, and the world more deeply.
+    </p>
+
+    <div class="beyond-grid">
+
+      <div class="beyond-card">
+        <h3>Movies</h3>
+        <p>
+          I enjoy films that dive into emotions, explore human nature, and raise questions about how people think, feel, and change.
+        </p>
+        <a class="beyond-link" href="https://letterboxd.com/bibekhaudi/" target="_blank">My Letterboxd Profile →</a>
+      </div>
+
+      <div class="beyond-card">
+        <h3>Books</h3>
+        <p>
+          I like reading classics, romance, mystery, and thriller novels, stories that pull me into new worlds and perspectives.
+        </p>
+        <a class="beyond-link" href="https://www.goodreads.com/user/show/159735703-bibek-haudi" target="_blank">My Goodreads Profile →</a>
+      </div>
+
+      <div class="beyond-card">
+        <h3>Travel</h3>
+        <p>
+          I love visiting new places, trying new dishes, experiencing different cultures, and discovering landscapes that connect me to the world.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="next" id="whatsnext">
+  <div class="next-container">
+
+    <h2>What's Next for Me?</h2>
+
+    <p class="next-text">
+      I am currently seeking employment opportunities in the United States in the fields of 
+      GIS, Remote Sensing, Geospatial Analysis, and Mapping.  
+      I’m open to full‑time, hybrid, and on‑site roles where I can apply my technical skills, 
+      contribute to meaningful spatial projects, and continue growing as a geospatial professional.
+    </p>
+
+    <p class="next-text">
+      If my work aligns with what you're looking for, I’d be happy to connect.
+    </p>
+
+  </div>
+</section>
 
 
+<section class="contact" id="contact">
+  <div class="contact-container">
+
+    <h2>Contact</h2>
+
+    <p class="contact-text">
+      If you'd like to discuss opportunities, collaborate on geospatial projects, 
+      or simply connect, feel free to reach out.
+    </p>
+
+    <p class="contact-text">
+      <span class="icon">📧</span>
+      <strong>Email:</strong>
+      <a href="mailto:bibekpoudel245@gmail.com">bibekpoudel245@gmail.com</a>
+    </p>
+
+    <p class="contact-text">
+      <span class="icon">🔗</span>
+      <strong>LinkedIn:</strong>
+      <a href="https://www.linkedin.com/in/bibek-poudel-b5375823b/" target="_blank">
+        linkedin.com/in/bibek-poudel-b5375823b
+      </a>
+    </p>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2026 Bibek Poudel. All rights reserved.</p>
+</footer>
